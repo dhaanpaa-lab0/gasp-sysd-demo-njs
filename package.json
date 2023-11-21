@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node app.js",
     "start:dev": "nodemon app.js",
-    "cron_demo": "node cron_demo.js"
+    "cron_demo": "node cron_demo.js",
+    "dist": "git archive -o ./dist/gasp-sysd-demo-njs.tar.gz main"
   },
   "keywords": [],
   "author": "",
